@@ -1,0 +1,154 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(245, 245, 245);
+}
+
+.container {
+    width: 100%;       /* Largura como porcentagem do viewport */                   
+    margin: auto;      /* Centraliza o container */
+    padding: 2px;     /* Espaçamento interno */
+    height: 800px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-md-4 {
+    flex: 0 0 25%;
+    max-width: 25%;
+    padding: 15px;
+}
+
+
+.card-custom {
+    margin-top: 10px;    
+    width: 100%;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    min-height: 300px;
+    height: auto;
+}
+
+.card-custom:hover {
+    transform: translateY(-20px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
+
+.card-img-top {
+    width: 100%;       /* Imagem ocupa toda a largura do contêiner */
+    height: 350px;      /* Altura se ajusta para manter a proporção da imagem */
+    object-fit: cover; /* Garante que a imagem cubra o espaço disponível sem distorção */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.card-title {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.card-footer {
+    background-color: #f8f9fa;
+    border-top: 1px solid #ddd;
+    text-align: right;
+}
+
+
+.search-container {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.search-container form {
+    display: inline-block;
+    position: relative;
+}
+
+.search-container input[type="text"] {
+    width: 300px; /* Ajuste a largura conforme necessário */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+.search-container button {
+    padding: 10px;
+    background-color: #ff7b00;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-container button:hover {
+    background-color: #e66700; /* Um tom mais escuro para o hover */
+}
+
+.livros-container {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Opcional, para sombra */
+    width: 100%;
+    margin-top: none;
+}
+/* Estilo para ajustar ao responsivo, se necessário */
+@media (max-width: 600px) {
+    .search-container input[type="text"] {
+        width: 200px;
+    }
+}
+@media (max-width: 768px) {
+    .card-custom {
+        min-height: 200px; /* Altura mínima menor para dispositivos móveis */
+    }
+    .card-img-top {
+        height: 100%; /* Altura da imagem ajustada para dispositivos móveis */
+    }
+}
+
+
+ /*
+    Fontes
+  */
+  
+  @font-face {
+    font-family: Poppins-Regular;
+    src: url('../../fonts/poppins/Poppins-Regular.ttf'); 
+  }
+  
+  @font-face {
+    font-family: Poppins-Medium;
+    src: url('../../fonts/poppins/Poppins-Medium.ttf'); 
+  }
+  
+  @font-face {
+    font-family: Poppins-Bold;
+    src: url('../../fonts/poppins/Poppins-Bold.ttf'); 
+  }
+  
+  @font-face {
+    font-family: Poppins-SemiBold;
+    src: url('../../fonts/poppins/Poppins-SemiBold.ttf'); 
+  }
+
+

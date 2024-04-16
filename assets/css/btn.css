@@ -1,0 +1,71 @@
+
+.btn{ 
+    
+    background-color: #ff7b00; /* Cor de fundo vermelha */
+    color: rgb(255, 255, 255); /* Texto branco */
+    border: none; /* Sem borda */
+    padding: 10px 20px; /* Espaçamento interno */
+    margin-top: 20px; /* Margem superior para distância dos elementos acima */
+    border-radius: 5px; /* Bordas arredondadas */
+    font-size: 16px; /* Tamanho da fonte */
+    transition: background-color 0.3s ease; /* Transição suave para hover */}
+
+.btn:hover{
+    background-color: #3B4A9B; /* Cor de fundo para o estado hover */
+    color: white;
+}
+
+.btnEmprestar {
+    background-color: #ff7b00; /* Cor de fundo vermelha */
+    
+    color: rgb(255, 255, 255); /* Texto branco */
+    border: none; /* Sem borda */
+    padding: 10px 20px; /* Espaçamento interno */
+    margin-top: 20px; /* Margem superior para distância dos elementos acima */
+    margin-left: 100px;
+    border-radius: 5px; /* Bordas arredondadas */
+    font-size: 16px; /* Tamanho da fonte */
+    transition: background-color 0.3s ease; /* Transição suave para hover */
+}
+
+.btnEmprestar:hover {
+    background-color: #3B4A9B; /* Cor de fundo para o estado hover */
+    color: white;
+}
+
+.btnVoltar {
+    background-color: #ff7b00; /* Cor de fundo laranja */
+    color: rgb(255, 255, 255); /* Texto branco */
+    border: none; /* Sem borda */
+    padding: 10px 20px; /* Espaçamento interno */
+    margin-top: 10px; /* Margem superior para distância dos elementos acima */
+    margin-bottom: 10px; /* Margem inferior para distância dos elementos abaixo */
+    height: 30px;
+    width: 50px;
+    border-radius: 5px; /* Bordas arredondadas */
+    font-size: 16px; /* Tamanho da fonte */
+    transition: background-color 0.3s ease; /* Transição suave para hover */
+    display: flex; /* Usa flexbox para alinhamento */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    text-align: center; /* Certifica-se de que o texto está centralizado */
+}
+
+.MostrarSenha {
+    color: #fff; /* Cor do texto */
+    background-color: #007bff; /* Cor de fundo */
+    border-color: #007bff; /* Cor da borda */
+    padding: 5px 10px; /* Espaçamento interno */
+    border-radius: 5px; /* Bordas arredondadas */
+    font-size: 16px; /* Tamanho da fonte */
+    line-height: 1.5; /* Altura da linha */
+    border: 1px solid transparent; /* Borda */
+    cursor: pointer; /* Cursor do mouse */
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+                border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; /* Transição suave */
+}
+
+.MostrarSenha:hover {
+    background-color: #0056b3; /* Cor de fundo ao passar o mouse */
+    border-color: #004085; /* Cor da borda ao passar o mouse */
+}

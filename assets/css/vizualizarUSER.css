@@ -1,0 +1,53 @@
+/* Estilos para a tabela */
+.table {
+    width: 100%; /* A tabela ocupa toda a largura do container */
+    border-collapse: collapse; /* Remove o espaçamento entre as células */
+    margin-top: 20px; /* Espaço acima da tabela */
+    font-family: Arial, sans-serif; /* Fonte da tabela */
+    background-color: #fff; /* Cor de fundo das células */
+}
+
+/* Cabeçalho da Tabela */
+.table thead th {
+    background-color: #FF7B00; /* Cor de fundo do cabeçalho */
+    color: white; /* Cor do texto do cabeçalho */
+    padding: 10px; /* Espaçamento interno nas células do cabeçalho */
+    text-align: left; /* Alinhamento do texto */
+}
+
+/* Linhas da Tabela */
+.table tbody tr {
+    border-bottom: 1px solid #ddd; /* Linha de separação entre as linhas */
+}
+
+.table tbody tr:nth-child(odd) {
+    background-color: #f8f9fa; /* Cor de fundo para linhas ímpares */
+}
+
+/* Células da Tabela */
+.table td {
+    padding: 10px; /* Espaçamento interno nas células */
+    text-align: left; /* Alinhamento do texto nas células */
+}
+
+/* Estilos para os distintivos (badges) */
+.badge {
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 0.875em;
+    border-radius: 4px;
+    color: white;
+    text-align: center;
+}
+
+.badge-danger {
+    background-color: #dc3545; /* Vermelho para status 'Atrasado' */
+}
+
+.badge-success {
+    background-color: #28a745; /* Verde para status 'No Prazo' */
+}
+
+.badge-secondary {
+    background-color: #6c757d; /* Cinza para status 'Devolvido' */
+}

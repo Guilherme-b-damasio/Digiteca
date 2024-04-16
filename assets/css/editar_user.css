@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(245, 245, 245);
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    height: 700px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.colImg {
+    flex: 1;
+    padding: 1%;
+    margin-left: 2%;
+}
+
+.colLivro{
+    flex: 2;
+    margin-right: 4%;
+    margin-top: 1%;
+}
+
+@media (max-width: 768px) {
+    .col {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+.img-reduzida, .img-padrao {
+    width: 100%; /* Ajuste para ocupar toda a largura da coluna */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 10px;
+    max-width: 320px;
+}
+
+h3 {
+    margin-top: 0;
+}
+
+p {
+    color: #555;
+    line-height: 1.5;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    background-color: #000000;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: #000000;
+}
+
+.btnEmprestar {
+    background-color: #ff7b00; /* Cor de fundo vermelha */
+    color: rgb(255, 255, 255); /* Texto branco */
+    border: none; /* Sem borda */
+    padding: 10px 20px; /* Espaçamento interno */
+    margin-top: 10px; /* Margem superior para distância dos elementos acima */
+    margin-left: 0%;
+    border-radius: 5px; /* Bordas arredondadas */
+    font-size: 16px; /* Tamanho da fonte */
+    transition: background-color 0.3s ease; /* Transição suave para hover */
+    width: 100%;
+}
+
+.btnEmprestar:hover {
+    background-color: #3B4A9B; /* Cor de fundo para o estado hover */
+    color: white;
+}
+
+.btnVoltar {
+    background-color: #ff7b00; /* Cor de fundo laranja */
+    color: rgb(255, 255, 255); /* Texto branco */
+    border: none; /* Sem borda */
+    padding: 10px 20px; /* Espaçamento interno */
+    margin-top: 10px; /* Margem superior para distância dos elementos acima */
+    margin-bottom: 10px; /* Margem inferior para distância dos elementos abaixo */
+    height: 30px;
+    width: 50px;
+    border-radius: 5px; /* Bordas arredondadas */
+    font-size: 16px; /* Tamanho da fonte */
+    transition: background-color 0.3s ease; /* Transição suave para hover */
+    display: flex; /* Usa flexbox para alinhamento */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    text-align: center; /* Certifica-se de que o texto está centralizado */
+}
+
+.btnVoltar:hover {
+    background-color: #3B4A9B; /* Cor de fundo para o estado hover */
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 100%; /* Ocupa mais espaço na tela */
+    }
+
+    .colImg, .colLivro {
+        margin: 0; /* Remove margens adicionais em telas pequenas */
+    }
+
+    .btn, .btnEmprestar, .btnVoltar {
+        width: auto; /* Permite que os botões ajustem sua largura */
+        padding: 12px 24px; /* Aumenta o tamanho para melhor toque */
+    }
+
+    h3, p {
+        padding: 0 5%; /* Adiciona um pouco de padding para não tocar as bordas */
+    }
+}

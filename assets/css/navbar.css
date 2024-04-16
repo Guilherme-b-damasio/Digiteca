@@ -1,0 +1,58 @@
+.navbar {
+    position: relative;
+    height: 70px;
+    padding: 10px 20px;
+}
+
+.imgLOGOnav {
+    position: absolute;
+    left: 50%; /* Centraliza horizontalmente */
+    top: 50%; /* Centraliza verticalmente */
+    transform: translate(-50%, -50%); /* Ajuste fino para centralização exata */
+    z-index: 2; /* Garante que a logo fique acima dos outros elementos */
+}
+
+.imgLognav{
+    height: 47px;
+    top: auto;
+}
+
+.navbar2{
+    position: absolute;
+    left: 50%; /* Centraliza horizontalmente */
+    top: 50%; /* Centraliza verticalmente */
+    transform: translate(-50%, -50%); /* Ajuste fino para centralização exata */
+    z-index: 2; /* Garante que a logo fique acima dos outros elementos */
+}
+
+.imgLognavv{
+    height: 47px;
+    top: auto;
+}
+
+.navbar-brand,
+#navbarSupportedContent {
+    z-index: 1; /* Coloca os outros elementos da navbar atrás da logo */
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        height: 60px; /* Ajusta a altura para telas menores */
+        padding: 5px 15px; /* Reduz o padding para economizar espaço */
+    }
+
+    .imgLOGOnav, .navbar2 {
+        left: 10%; /* Ajusta a posição horizontalmente para evitar sobreposição com botões de menu */
+        transform: translateY(-50%); /* Mantém a centralização vertical sem alterar a horizontal */
+    }
+
+    .imgLognav, .imgLognavv {
+        height: 40px; /* Reduz o tamanho da logo para se encaixar melhor na barra de navegação reduzida */
+    }
+
+    .navbar-brand,
+    #navbarSupportedContent {
+        z-index: 1; /* Mantém estes elementos atrás da logo, ajuste conforme necessário */
+        font-size: 0.9em; /* Opcional: ajusta o tamanho da fonte dos itens da navbar para economizar espaço */
+    }
+}
