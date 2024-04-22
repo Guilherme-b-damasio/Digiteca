@@ -37,7 +37,7 @@ Este é um programa para gerenciamento de livros, usuários e empréstimos para 
 1. Primeiramente é necessário instalar o lamp, clique [aqui](https://bitnami.com/stack/lamp/installer), baixe, instale e deixe-o pronto de acordo com seu sistema operacional.
 2. Depois você precisa abrir o lamp, iniciar o "Apache Web Server" e o "MySQL Database".
 3. Agora as coisas podem ser um pouco diferentes. Se você está acostumado a usar o git, continue, caso contrário, vá para o passo 6.
-4. Basta clonar o repositório "https://github.com/gabrielogregorio/digiteca" dentro da pasta "htdocs" do lamp.
+4. Basta clonar o repositório dentro da pasta "htdocs" do lamp.
 Exemplo no ubuntu:
 
 ```shell
@@ -45,11 +45,11 @@ Exemplo no ubuntu:
 cd /opt/lampp/htdocs
 
 # clonar o repositório
-[git clone https://github.com/TItintomax/Digiteca.git
+[git clone https://github.com/Guilherme-b-damasio/Digiteca.git
 ```
 
 5. Agora basta ir para o passo 11.
-6. No seu navegador, acesse o repositório https://github.com/gabrielogregorio/digiteca
+6. No seu navegador, acesse o repositório
 7. Clique no botão verde escrito "code"
 8. Clique em "download zip". Um arquivo .zip será baixado para o seu computador.
 9. Extraia o arquivo baixado, você terá uma pasta chamada "digiteca".
