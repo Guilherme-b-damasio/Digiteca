@@ -65,7 +65,3 @@ Agora sim, a biblioteca já está pronta para ser usada.
 Acesse o endereço [http://localhost/digiteca/](http://localhost/digiteca/) e a tela da biblioteca será carregada.
 
 
-#### Aviso
-Como demonstração, deixamos alguns dados cadastrados. Para excluir um usuário por exemplo, primeiro remova todos os empréstimos deste usuário.
-
-
