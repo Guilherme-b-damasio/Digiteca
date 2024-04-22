@@ -12,12 +12,6 @@
 
 <h3>Informações gerais</h3>
 
-![GitHub estrelas](https://img.shields.io/github/stars/gabrielogregorio/digiteca)
-![GitHub last commit](https://img.shields.io/github/last-commit/gabrielogregorio/digiteca?style=flat-square)
-![GitHub contributors](https://img.shields.io/github/contributors/gabrielogregorio/digiteca)
-![GitHub language count](https://img.shields.io/github/languages/count/gabrielogregorio/digiteca)
-![GitHub repo size](https://img.shields.io/github/repo-size/gabrielogregorio/digiteca)
-
 ### Tópicos
 
 - [Tópicos](#tópicos)
